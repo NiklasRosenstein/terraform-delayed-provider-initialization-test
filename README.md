@@ -1,4 +1,7 @@
 
+  [DigitalOcean]: digitalocean.com/
+  [Vultr]: vultr.com/
+
 This repository tests delayed provider initialization in Terraform, attempting to create a resource, subsequently
 initializing a provider from that resource and creating a resource using that new provider. This is a useful pattern
 to describe infrastructure end-to-end.
