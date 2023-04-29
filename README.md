@@ -127,7 +127,7 @@ __Status__:
     * The `refaktory/minio` provider does not seem to support delayed initialization. It is not possible to create a
         resource using the provider if a resource needs to be created to initialize the provider.
 
-<details><summary>Terraform Create Logs</summary>
+<details><summary>Terraform Apply Logs (Create)</summary>
 
 <pre>
 > VULTR_API_KEY=... terraform apply
@@ -179,7 +179,7 @@ __Status__
 * ❌ Create
     * Same as with the `refaktory/minio` provider.
 
-<details><summary>Terraform Apply Logs</summary>
+<details><summary>Terraform Apply Logs (Create)</summary>
 
 <pre>
 > VULTR_API_KEY=... terraform apply
