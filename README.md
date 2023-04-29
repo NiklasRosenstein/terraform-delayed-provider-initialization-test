@@ -29,6 +29,9 @@ __Status__:
       > Note: This may be an implementation detail of the DigitalOcean provider, but it means we cannot generally
       > assume that this scenario works.
 
+      The same error occurs when running `terraform destroy` when the cluster resource is in a state that would require
+      it to be recreated.
+
 <details><summary>Terraform Apply Logs after changing the default node pool size, causing the cluster to be recreated.</summary>
 
 <pre>

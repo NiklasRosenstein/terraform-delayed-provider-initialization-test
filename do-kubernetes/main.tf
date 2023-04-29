@@ -12,7 +12,7 @@ resource "digitalocean_kubernetes_cluster" "main" {
   version = "1.26.3-do.0"
   node_pool {
     name       = "default"
-    size       = "s-4vcpu-2gb"
+    size       = "s-2vcpu-2gb"
     node_count = 1
   }
 }
